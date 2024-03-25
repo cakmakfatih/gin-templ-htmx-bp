@@ -1,0 +1,11 @@
+package templates
+
+import (
+    layouts "gopg/templates/layouts"
+)
+
+templ Home() {
+    @layouts.MainLayout("Home") {
+        <h1 class="text-xl">Welcome to Home page</h1>
+    }
+}
